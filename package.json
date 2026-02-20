@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview"
   },
+  "homepage": "https://marutibandagar9121.github.io/MarutiBandagar",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
