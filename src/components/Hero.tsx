@@ -9,7 +9,7 @@ import {
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center text-center px-6 bg-slate-950 text-white relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center text-center mt-4 px-6 bg-slate-950 text-white relative overflow-hidden">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
@@ -40,12 +40,12 @@ export default function Hero() {
             View My Work <RiArrowRightLine size={18} />
           </a>
 
-          <a
+          {/* <a
             href="mailto:maruti.bandagar@yahoo.com"
             className="border border-slate-700 px-8 py-3 rounded-xl hover:bg-slate-800 transition"
           >
             Hire Me
-          </a>
+          </a> */}
         </div>
 
         {/* Social Icons */}

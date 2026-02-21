@@ -62,7 +62,7 @@ const skillCategories = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-24 px-6 bg-slate-900">
+    <section id="skills" className="py-24 px-6 bg-slate-950">
       <div className="max-w-7xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
@@ -81,7 +81,7 @@ export default function Skills() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               whileHover={{ scale: 1.03 }}
-              className=" p-8 rounded-3xl shadow-xl border border-slate-700"
+              className="p-8 rounded-3xl shadow-xl border border-slate-700"
             >
               <h3 className="text-xl font-semibold mb-6 text-white">
                 {category.title}
