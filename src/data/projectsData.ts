@@ -38,7 +38,7 @@ export const projects: Project[] = [
       { name: "TypeScript", color: "bg-blue-700" },
     ],
     github: "https://github.com/MarutiBandagar9121/find-me-my-dream-job",
-    image: "/images/projects/jobStreamAi.png",
+    image: "/portfolio/images/projects/jobStreamAi.png",
   },
 
   {
@@ -67,7 +67,7 @@ export const projects: Project[] = [
     ],
     github:
       "https://github.com/MarutiBandagar9121/LeadManagementSystem-ExpressJS",
-    image: "/images/projects/leadManagementApi.png",
+    image: "/portfolio/images/projects/leadManagementApi.png",
   },
   {
     id: "indian-id-validator",
@@ -91,7 +91,7 @@ export const projects: Project[] = [
       { name: "npm", color: "bg-red-600" },
     ],
     github: "https://github.com/MarutiBandagar9121/indian-id-validator",
-    image: "/images/projects/indianIdValidator.png",
+    image: "/portfolio/images/projects/indianIdValidator.png",
   },
   {
     id: "animeflix",
@@ -116,7 +116,7 @@ export const projects: Project[] = [
       { name: "JavaScript", color: "bg-yellow-500" },
     ],
     github: "https://github.com/MarutiBandagar9121/AnimeFlix",
-    image: "/images/projects/animeflix.png",
+    image: "/portfolio/images/projects/animeflix.png",
   },
   {
     id: "milk-mart",
@@ -141,6 +141,6 @@ export const projects: Project[] = [
       { name: "Bootstrap", color: "bg-purple-600" },
     ],
     github: "https://github.com/MarutiBandagar9121/MilkMart",
-    image: "/images/projects/milkmart.png",
+    image: "/portfolio/images/projects/milkmart.png",
   },
 ];

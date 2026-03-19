@@ -7,7 +7,9 @@ export default function Navbar() {
   return (
     <nav className="fixed w-full bg-slate-950 backdrop-blur-md z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold text-primary">Maruti.Bandagar</h1>
+        <a href="/portfolio/">
+            <h1 className="text-xl font-bold text-primary">Maruti.Bandagar</h1>
+        </a>
         <div className="hidden md:flex gap-6">
           <a href="#about">About</a>
           <a href="#skills">Skills</a>

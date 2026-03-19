@@ -1,0 +1,179 @@
+%-------------------------
+% Resume in LaTeX
+% Author: Maruti Mallinath Bandagar
+% Tailored for: Full Stack Developer (MEAN Stack) - Codvo
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+\usepackage[default]{sourcesanspro}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape \textbf{Maruti Mallinath Bandagar}} \\ \vspace{4pt}
+    {\large Full-Stack Developer} \\ \vspace{6pt}
+    \small
+    \href{mailto:maruti.bandagar@yahoo.com}{\underline{maruti.bandagar@yahoo.com}} $|$
+    +91 7755919112 $|$
+    Pune, Maharashtra $|$
+    \href{https://www.linkedin.com/in/marutibandagar/}{\underline{LinkedIn}} $|$
+    \href{https://github.com/MarutiBandagar9121}{\underline{GitHub}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\small{
+Results-driven Full-Stack Developer with \textasciitilde2 years of experience building scalable, high-performance web applications using Node.js, Express.js, TypeScript, PostgreSQL, MongoDB, and Redis. Proven ability to design and implement REST APIs with JWT/OAuth authentication, containerize services with Docker, and deploy on cloud platforms (GCP, AWS). Experienced in microservices architecture, CI/CD pipelines, and Agile (Scrum/Kanban) delivery. Passionate about clean, maintainable code and integrating emerging technologies---including AI/ML---to drive real business impact. Immediate Joiner.
+}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Developer}{May 2024 -- Present}
+      {Estatehub}{Pune, MH}
+      \resumeItemListStart
+        \resumeItem{\textbf{REST API Development:} Designed and developed robust REST APIs using Node.js and Express.js, implementing JWT/OAuth authentication and RBAC to secure enterprise-grade endpoints and ensure data integrity.}
+        \resumeItem{\textbf{Microservices \& System Design:} Contributed to architectural decisions for microservices-based systems; built scalable, loosely coupled backend services with clear separation of concerns following MVC patterns.}
+        \resumeItem{\textbf{Database Engineering:} Managed and optimized PostgreSQL and MongoDB databases; implemented Redis caching layers to reduce latency and improve throughput for high-traffic workloads.}
+        \resumeItem{\textbf{Frontend Development:} Built responsive, maintainable frontends using React and TypeScript, applying HTML5, CSS3, and component-based architecture to deliver consistent cross-browser user experiences.}
+        \resumeItem{\textbf{Cloud \& DevOps:} Established and managed cloud infrastructure on GCP and AWS; containerized applications using Docker ensuring 100\% environment consistency across development, staging, and production.}
+        \resumeItem{\textbf{CI/CD \& Version Control:} Implemented and maintained CI/CD pipelines using GitHub Actions; enforced Git-based branching workflows and code review practices to support reliable, continuous delivery.}
+        \resumeItem{\textbf{System Automation \& Integration:} Designed a dynamic document generation engine integrating third-party systems to produce customized PowerPoint and Excel reports; resolved critical bugs in payment gateway integrations, reducing transaction failures significantly.}
+        \resumeItem{\textbf{Legacy Modernization \& ETL:} Led end-to-end migration of legacy codebases to current framework versions; executed large-scale ETL processes and web scraping pipelines to aggregate and prepare real estate data for downstream AI/ML training.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Savitribai Phule Pune University}{2021 -- 2024}
+      {B.Sc. in Computer Science}{CGPA: 9.17}
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{JobStream AI} $|$ \emph{Architect} $|$ \emph{Node.js, Express.js, PostgreSQL, Redis, Vector DB, Next.js}}{}
+          \resumeItemListStart
+            \resumeItem{Architected a distributed, microservices-based system using Python workers and a Next.js dashboard to handle high-volume asynchronous data ingestion, with Redis-backed caching for performance optimization.}
+            \resumeItem{Implemented semantic search via Vector Databases (Qdrant), enabling natural language job discovery and demonstrating scalable, high-performance system design principles.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Lead Management System API} $|$ \emph{Developer} $|$ \emph{Node.js, Express.js, PostgreSQL, Redis, JWT}}{}
+          \resumeItemListStart
+            \resumeItem{Built a secure, high-performance REST API with Role-Based Access Control (RBAC) and JWT authentication, following MVC architecture for enterprise-level lead tracking and conversion monitoring.}
+            \resumeItem{Integrated Redis caching and optimized PostgreSQL queries to ensure scalability and low-latency responses under high concurrent load.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Indian ID Validator (NPM Package)} $|$ \emph{Creator} $|$ \emph{Node.js, TypeScript}}{}
+          \resumeItemListStart
+            \resumeItem{Published an open-source TypeScript/Node.js library for Indian government ID validation on NPM, demonstrating high code quality standards, API design, and community contribution.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{Skills \& Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Frontend:} React, Next.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, Bootstrap \\[3pt]
+     \textbf{Backend:} Node.js, Express.js, Python, Java (Spring Boot), PHP (Laravel) \\[3pt]
+     \textbf{Databases \& Caching:} PostgreSQL, MongoDB, MySQL, Redis \\[3pt]
+     \textbf{Architecture \& Patterns:} Microservices, REST APIs, MVC/MVVM, OAuth/JWT Authentication, RBAC \\[3pt]
+     \textbf{Cloud \& DevOps:} AWS, GCP, Docker, CI/CD (GitHub Actions), Git, Containerization \\[3pt]
+     \textbf{AI \& Data:} AI/ML Integration, LLMs, Vector Databases (Qdrant), ETL Pipelines, Web Scraping \\[3pt]
+     \textbf{Methodologies:} Agile (Scrum/Kanban), Sprint Planning, Code Reviews, Technical Documentation \\[3pt]
+     \textbf{Certifications:} Complete Web-Dev Bootcamp --- Udemy \quad $|$ \quad Programming for Everybody (Python) --- Coursera
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}

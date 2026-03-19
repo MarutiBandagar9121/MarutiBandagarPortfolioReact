@@ -1,0 +1,175 @@
+%-------------------------
+% Resume in LaTeX
+% Author: Maruti Mallinath Bandagar
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+\usepackage[default]{sourcesanspro}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape \textbf{Maruti Mallinath Bandagar}} \\ \vspace{4pt}
+    {\large Full-Stack Developer} \\ \vspace{6pt}
+    \small
+    \href{mailto:maruti.bandagar@yahoo.com}{\underline{maruti.bandagar@yahoo.com}} $|$
+    +91 7755919112 $|$
+    Pune, Maharashtra $|$
+    \href{https://www.linkedin.com/in/marutibandagar/}{\underline{LinkedIn}} $|$
+    \href{https://github.com/MarutiBandagar9121}{\underline{GitHub}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+\small{
+Immediate Joiner | Results-driven Full-Stack Developer with about 2 years of experience specializing in Python, Next.js, and AI Integration to build high-performance, user-centric applications. Highly versatile engineer with a proven track record in Java (Spring Boot), Node.js, and PHP (Laravel) environments. Expert at integrating AI features---including LLMs and Vector Databases---to achieve business goals, focusing on AI-driven automation, cloud scalability, and modernizing legacy systems to drive operational efficiency and ROI.
+}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Developer}{ May 2024 -- Present}
+      {Estatehub}{Pune, MH}
+      \resumeItemListStart
+        \resumeItem{\textbf{AI \& Machine Learning:} Prototyped an AI-powered thesis evaluation system, gaining hands-on experience with ML pipelines and integrating models to automate academic assessment.}
+        \resumeItem{\textbf{Legacy Modernization:} Led the end-to-end migration of legacy codebases to current framework versions, restoring critical system functionality and improving long-term maintainability.}
+        \resumeItem{\textbf{System Automation:} Designed and implemented a dynamic proposal generation engine, automating the creation of customized PowerPoint and Excel documents based on user specifications.}
+        \resumeItem{\textbf{Cloud Infrastructure:} Established and managed the company's cloud infrastructure on GCP and AWS, optimizing service configurations for scalability and performance.}
+        \resumeItem{\textbf{FinTech Reliability:} Resolved critical bugs in payment gateway integrations, significantly reducing transaction failures and improving financial data integrity.}
+        \resumeItem{\textbf{Data Engineering:} Executed ETL processes for large-scale data migration and implemented web scraping solutions to aggregate real estate data for AI training.}
+        \resumeItem{\textbf{Workflow Optimization:} Developed a comprehensive automated invoice management system for a plagiarism detection platform, handling generation, storage, and delivery.}
+        \resumeItem{\textbf{Containerization:} Spearheaded the transition to Docker-based workflows, ensuring 100\% environment consistency across development, staging, and production.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Savitribai Phule Pune University}{2021 -- 2024}
+      {B.Sc. in Computer Science}{CGPA: 9.17}
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{JobStream AI} $|$ \emph{Architect}}{}
+          \resumeItemListStart
+            \resumeItem{Architected a distributed system using Python workers and a Next.js dashboard to handle high-volume data ingestion.}
+            \resumeItem{Implemented semantic search via Vector DBs, allowing users to find job opportunities through natural language, directly improving platform engagement.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Indian ID Validator (NPM Package)} $|$ \emph{Creator}}{}
+          \resumeItemListStart
+            \resumeItem{Published an open-source library for government ID validation, demonstrating high-quality code standards and community leadership.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Lead Management System API} $|$ \emph{Developer}}{}
+          \resumeItemListStart
+            \resumeItem{Built a secure, high-performance API with RBAC and Redis caching to handle enterprise-level lead tracking and conversion monitoring.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------SKILLS & AWARDS-----------
+\section{Skills \& Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Core Stack:} Python, Next.js, TypeScript, React \\[3pt]
+     \textbf{Backend:} Java (Spring Boot), Node.js (Express), PHP (Laravel) \\[3pt]
+     \textbf{Databases \& Search:} PostgreSQL, MySQL, MongoDB, Redis, Qdrant (Vector DB) \\[3pt]
+     \textbf{Cloud \& DevOps:} AWS, GCP, Docker, CI/CD, Microservices Architecture \\[3pt]
+     \textbf{Business Tools:} System Automation, Web Scraping, Financial Integration (Payment Gateways) \\[3pt]
+     \textbf{Certifications:} Complete Web-Dev Bootcamp --- Udemy \quad $|$ \quad Programming for Everybody (Python) --- Coursera
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}

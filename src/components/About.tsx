@@ -18,7 +18,7 @@ export default function About() {
           <div className="relative w-64 h-64">
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 blur-2xl opacity-30"></div>
             <img
-              src="/images/marutiPhoto.jpeg"
+              src="/portfolio/images/marutiPhoto.jpeg"
               alt="Maruti Bandagar"
               className="relative w-64 h-64 object-cover rounded-full border-4 border-slate-800 shadow-2xl"
             />
