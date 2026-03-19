@@ -51,7 +51,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="/portfolio/resumes/MarutiBandagar_Resume.pdf"
+            href="/portfolio/resumes/MarutiBandagarResume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-3 flex items-center gap-1.5 bg-primary/10 border border-primary/30 hover:bg-primary/20 hover:border-primary/50 text-primary px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200"
@@ -96,7 +96,7 @@ export default function Navbar() {
                 </motion.a>
               ))}
               <a
-                href="/portfolio/resumes/MarutiBandagar_Resume.pdf"
+                href="/portfolio/resumes/MarutiBandagarResume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setOpen(false)}

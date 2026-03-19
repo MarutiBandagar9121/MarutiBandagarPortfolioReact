@@ -1,58 +1,5 @@
 import { motion } from "framer-motion";
-import {
-  RiCodeBoxLine,
-  RiLayoutLine,
-  RiServerLine,
-  RiCloudLine,
-  RiDatabase2Line,
-  RiToolsLine,
-} from "@remixicon/react";
-
-interface SkillCategory {
-  title: string;
-  Icon: React.ElementType;
-  accent: string;
-  skills: string[];
-}
-
-const skillCategories: SkillCategory[] = [
-  {
-    title: "Programming Languages",
-    Icon: RiCodeBoxLine,
-    accent: "#8b5cf6",
-    skills: ["Java", "JavaScript", "TypeScript", "Python", "PHP"],
-  },
-  {
-    title: "Frontend",
-    Icon: RiLayoutLine,
-    accent: "#06b6d4",
-    skills: ["React", "Next.js", "Angular", "Tailwind CSS"],
-  },
-  {
-    title: "Backend",
-    Icon: RiServerLine,
-    accent: "#10b981",
-    skills: ["Spring Boot", "Express", "Laravel", "Node.js", "Fastify"],
-  },
-  {
-    title: "DevOps & Cloud",
-    Icon: RiCloudLine,
-    accent: "#f97316",
-    skills: ["Git & GitHub", "Docker", "AWS", "GCP"],
-  },
-  {
-    title: "Databases",
-    Icon: RiDatabase2Line,
-    accent: "#3b82f6",
-    skills: ["MySQL", "PostgreSQL", "MongoDB", "Redis", "Qdrant", "Elasticsearch"],
-  },
-  {
-    title: "Tools & More",
-    Icon: RiToolsLine,
-    accent: "#f43f5e",
-    skills: ["Postman", "VS Code", "IntelliJ IDEA"],
-  },
-];
+import {skillCategories, SkillCategory} from "../data/experienceData";
 
 const containerVariants = {
   hidden: {},

@@ -7,12 +7,7 @@ import {
   RiMailFill,
   RiDownloadLine,
 } from "@remixicon/react";
-
-const stats = [
-  { value: "1.8+", label: "Years Experience" },
-  { value: "5+",   label: "Projects Built" },
-  { value: "15+",  label: "Technologies" },
-];
+import {stats} from "../data/experienceData";
 
 const socials = [
   {
@@ -83,8 +78,8 @@ export default function Hero() {
           className="mt-8 text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed"
         >
           Full-Stack Developer specializing in{" "}
-          <span className="text-gray-200 font-medium">Java, TypeScript & Cloud Infrastructure</span>.{" "}
-          I build high-performance web apps, AI-powered systems, and containerized architectures designed for scale.
+          <span className="text-gray-200 font-medium">Python, React, Next.js & Cloud Infrastructure</span>.{" "}
+          I build full-stack products, AI-powered systems, and containerized architectures — from first commit to production.
         </motion.p>
 
         {/* CTAs */}
@@ -105,7 +100,7 @@ export default function Hero() {
             />
           </a>
           <a
-            href="/portfolio/resumes/MarutiBandagar_Resume.pdf"
+            href="/portfolio/resumes/MarutiBandagarResume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 border border-slate-700 hover:border-slate-500 bg-slate-800/40 hover:bg-slate-800 px-8 py-3.5 rounded-xl font-medium text-gray-300 hover:text-white transition-all duration-200"
@@ -151,17 +146,6 @@ export default function Hero() {
             </div>
           ))}
         </motion.div>
-      </motion.div>
-
-      {/* Scroll cue */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.6 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-gray-600 pointer-events-none"
-      >
-        <span className="text-[10px] tracking-[0.2em] uppercase">Scroll</span>
-        <div className="w-px h-10 bg-gradient-to-b from-indigo-500/50 to-transparent animate-bounce-down" />
       </motion.div>
     </section>
   );

@@ -34,7 +34,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-28 px-6 bg-slate-950 relative overflow-hidden"
+      className="py-28 px-4 sm:px-6 bg-slate-950 relative overflow-hidden"
     >
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-indigo-950/10 to-transparent pointer-events-none" />
@@ -97,7 +97,7 @@ export default function Contact() {
                 transition={{ delay: i * 0.1, duration: 0.5 }}
                 viewport={{ once: true }}
                 whileHover={{ x: 5, transition: { duration: 0.15 } }}
-                className="group flex items-center gap-5 p-5 rounded-2xl"
+                className="group flex items-center gap-3 sm:gap-5 p-4 sm:p-5 rounded-2xl min-w-0 overflow-hidden w-full"
                 style={{
                   background: "rgba(15, 23, 42, 0.75)",
                   border: "1px solid rgba(51, 65, 85, 0.5)",
@@ -115,7 +115,7 @@ export default function Contact() {
               >
                 {/* Icon */}
                 <div
-                  className="p-3 rounded-xl flex-shrink-0"
+                  className="p-2.5 sm:p-3 rounded-xl flex-shrink-0"
                   style={{
                     background: `${item.accent}15`,
                     color: item.accent,
